@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#080f24">
+<title>PPT KANKER WALA — PowerPoint Presentation Technology</title>
+<meta name="description" content="PPT KANKER WALA creates polished PowerPoint presentations for assignments, projects, seminars and businesses.">
+<style>
+:root{--bg:#080f24;--bg2:#101d3e;--card:#111d39;--white:#f6f8ff;--muted:#aeb9d3;--orange:#ff9b43;--cyan:#5ee7f5;--line:#ffffff18;--green:#37d996}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:88px}body{margin:0;background:var(--bg);color:var(--white);font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Arial,sans-serif;line-height:1.6;overflow-x:hidden}a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}.wrap{width:min(1160px,92%);margin:auto}
+#progress{height:3px;width:0;position:fixed;top:0;left:0;background:linear-gradient(90deg,var(--orange),var(--cyan));z-index:100}
+header{position:sticky;top:0;z-index:50;background:#080f24d9;backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:18px}.logo{display:flex;align-items:center;gap:10px;font-weight:950;letter-spacing:.3px}.logo-mark{height:42px;width:42px;border-radius:13px;display:grid;place-items:center;color:#11172b;background:linear-gradient(135deg,var(--orange),#ffd27a);box-shadow:0 0 28px #ff9b4330;font-size:1.3rem}.logo-text span{color:var(--orange)}.logo-text small{display:block;font-size:.61rem;color:var(--muted);font-weight:700;letter-spacing:1.8px;margin-top:-3px}
+nav{display:flex;gap:22px;align-items:center;color:#d7def0;font-size:.9rem}nav a{transition:color .25s}nav a:hover{color:var(--cyan)}.btn{border:1px solid transparent;border-radius:13px;padding:12px 18px;display:inline-flex;justify-content:center;align-items:center;gap:9px;font-weight:850;cursor:pointer;transition:transform .25s,box-shadow .25s,background .25s}.btn:hover{transform:translateY(-3px);box-shadow:0 12px 30px #0004}.primary{background:linear-gradient(110deg,var(--orange),#ffc46d);color:#171a2c}.outline{border-color:#ffffff32;background:#ffffff08;color:white}.smallbtn{padding:10px 14px}.menu{display:none;background:none;color:white;border:1px solid var(--line);border-radius:10px;padding:8px}
+.hero{min-height:660px;display:flex;align-items:center;position:relative;isolation:isolate;padding:75px 0 90px;background:radial-gradient(ellipse at 76% 36%,#173969 0,transparent 38%),radial-gradient(ellipse at 12% 72%,#37224b 0,transparent 30%)}.orb{position:absolute;border-radius:50%;filter:blur(1px);opacity:.5;z-index:-1;animation:float 8s ease-in-out infinite}.orb.one{width:170px;height:170px;background:#ff9b4322;border:1px solid #ff9b4355;right:6%;top:15%}.orb.two{width:90px;height:90px;background:#5ee7f522;border:1px solid #5ee7f555;left:46%;bottom:12%;animation-delay:-3s}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:55px;align-items:center}.pill{display:inline-flex;align-items:center;gap:9px;border:1px solid #ffffff25;background:#ffffff09;border-radius:99px;padding:8px 13px;color:#dfe9ff;font-size:.8rem;font-weight:800;animation:fadeUp .7s both}.dot{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 12px var(--green)}h1{font-size:clamp(2.6rem,5.6vw,5.2rem);letter-spacing:-.055em;line-height:1.01;margin:24px 0 20px;animation:fadeUp .8s .1s both}h1 .gradient{background:linear-gradient(100deg,var(--orange),#ffe0a1 45%,var(--cyan));background-clip:text;color:transparent}.hero-copy{font-size:1.08rem;color:#b9c5e0;max-width:600px;animation:fadeUp .8s .2s both}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0;animation:fadeUp .8s .3s both}.micro{display:flex;gap:20px;flex-wrap:wrap;color:#c5d0e8;font-size:.86rem}.micro span{display:flex;gap:7px;align-items:center}
+.deck-wrap{perspective:1100px;animation:fadeUp .9s .2s both}.deck{position:relative;padding:16px;border:1px solid #ffffff28;border-radius:25px;background:linear-gradient(135deg,#ffffff17,#ffffff06);box-shadow:0 35px 100px #0007;transform:rotateY(-8deg) rotateX(3deg);animation:deckFloat 7s ease-in-out infinite}.deck-top{display:flex;align-items:center;justify-content:space-between;padding:4px 5px 15px;color:#d5e2fa;font-size:.75rem;font-weight:800;letter-spacing:1px}.lights{display:flex;gap:5px}.lights i{width:7px;height:7px;border-radius:50%;background:#ff9b43}.lights i:nth-child(2){background:#5ee7f5}.lights i:nth-child(3){background:#37d996}.slide{aspect-ratio:1.22;background:linear-gradient(135deg,#f8faff,#dfe9ff);color:#101a39;border-radius:15px;padding:clamp(20px,3vw,36px);display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden}.slide:after{content:"";position:absolute;width:220px;height:220px;border-radius:50%;background:#5ee7f52e;right:-70px;top:-90px}.slide-label{font-size:.65rem;letter-spacing:2.5px;font-weight:950;color:#e36e1c;z-index:1}.slide h2{font-size:clamp(1.7rem,3vw,2.8rem);line-height:1.03;letter-spacing:-.05em;max-width:360px;margin:22px 0;z-index:1}.slide p{font-size:.82rem;color:#52617f;margin:0;z-index:1}.slide-footer{display:flex;justify-content:space-between;align-items:center;margin-top:28px;font-size:.68rem;font-weight:850;color:#29395d;z-index:1}.slide-lines{display:flex;gap:5px}.slide-lines i{display:block;height:5px;width:30px;border-radius:10px;background:#f49a47}.slide-lines i:nth-child(2){background:#1c477c}.slide-lines i:nth-child(3){background:#a9bad9}.floating-tag{position:absolute;background:#121e3c;border:1px solid #ffffff2b;border-radius:14px;padding:12px 15px;box-shadow:0 15px 35px #0005;font-size:.82rem;font-weight:850;animation:float 5s ease-in-out infinite}.tag-a{left:-35px;bottom:15%;}.tag-b{right:-22px;top:19%;animation-delay:-2s}.tag-a b{color:var(--green)}.tag-b b{color:var(--orange)}
+.stats{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:#ffffff04}.stats-grid{display:grid;grid-template-columns:repeat(4,1fr)}.stat{padding:25px 12px;text-align:center;border-right:1px solid var(--line)}.stat:last-child{border:0}.stat strong{display:block;font-size:1.12rem;color:white}.stat span{font-size:.8rem;color:var(--muted)}
+section.content{padding:95px 0}.section-head{text-align:center;max-width:730px;margin:0 auto 44px}.eyebrow{font-size:.75rem;letter-spacing:2px;font-weight:950;color:var(--cyan);text-transform:uppercase}.section-head h2{font-size:clamp(2rem,4vw,3.2rem);letter-spacing:-.04em;line-height:1.1;margin:13px 0}.section-head p{color:var(--muted);margin:0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{background:linear-gradient(145deg,#ffffff0c,#ffffff04);border:1px solid var(--line);border-radius:20px;padding:25px;transition:transform .3s,border-color .3s,box-shadow .3s;position:relative;overflow:hidden}.card:before{content:"";position:absolute;inset:0;background:linear-gradient(125deg,#5ee7f50a,transparent 50%,#ff9b4308);opacity:0;transition:opacity .3s}.card:hover{transform:translateY(-7px);border-color:#5ee7f566;box-shadow:0 22px 55px #0003}.card:hover:before{opacity:1}.card>*{position:relative}.icon{height:52px;width:52px;border-radius:16px;display:grid;place-items:center;background:linear-gradient(135deg,#ff9b4328,#5ee7f51b);border:1px solid #ffffff15;font-size:1.5rem}.card h3{font-size:1.2rem;margin:18px 0 8px}.card p{color:var(--muted);font-size:.93rem;margin:0}.pricing{background:linear-gradient(180deg,#0a132a,#0c1530)}.price{font-size:2.65rem;letter-spacing:-.05em;font-weight:950;margin:14px 0}.price small{font-size:.83rem;color:var(--muted);letter-spacing:0;font-weight:600}.features{list-style:none;padding:0;margin:18px 0 25px;color:#c0cbe2;font-size:.9rem}.features li{padding:7px 0}.features li:before{content:"✓";color:var(--green);font-weight:950;margin-right:10px}.popular{border-color:#ff9b4380;box-shadow:0 0 40px #ff9b430c}.popular-badge{position:absolute;top:18px;right:18px;border-radius:99px;background:#ff9b4320;color:#ffc17c;padding:5px 9px;font-size:.68rem;font-weight:950;letter-spacing:1px}
+.process{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.step{padding:20px;border-top:1px solid #5ee7f555;position:relative}.step-num{font-size:.8rem;color:var(--orange);font-weight:950;letter-spacing:2px}.step h3{margin:10px 0 6px}.step p{color:var(--muted);font-size:.9rem;margin:0}
+.order-layout{display:grid;grid-template-columns:.72fr 1.28fr;gap:24px;align-items:start}.sidebox,.formbox{border:1px solid var(--line);border-radius:22px;background:#ffffff08;padding:27px}.sidebox{background:linear-gradient(155deg,#15264a,#101a35)}.sidebox h3{font-size:1.55rem;margin-top:0}.sidebox p{color:var(--muted)}.contact-row{padding:14px 0;border-bottom:1px solid var(--line);font-size:.91rem}.contact-row:last-child{border:0}.contact-row span{color:var(--muted);display:block;font-size:.82rem}.formbox h3{margin:0 0 5px;font-size:1.4rem}.form-intro{color:var(--muted);font-size:.9rem;margin:0 0 24px}
+form{display:grid;grid-template-columns:1fr 1fr;gap:16px}.field{min-width:0}.full{grid-column:1/-1}label{display:block;font-size:.85rem;font-weight:800;margin-bottom:7px;color:#dfe6f7}input,select,textarea{width:100%;border:1px solid #ffffff22;background:#0b142c;color:white;border-radius:11px;padding:12px 13px;outline:none;transition:border-color .2s,box-shadow .2s}select option{background:#101d3e}input:focus,select:focus,textarea:focus{border-color:var(--cyan);box-shadow:0 0 0 3px #5ee7f51c}textarea{min-height:100px;resize:vertical}.hint{font-size:.78rem;color:var(--muted);margin-top:5px}.total{display:flex;justify-content:space-between;align-items:center;gap:12px;background:#ffffff08;border:1px dashed #ffffff35;border-radius:13px;padding:15px}.total strong{font-size:1.35rem;color:var(--orange)}.payment-panel{background:#ff9b4310;border:1px solid #ff9b4338;border-radius:13px;padding:15px}.payment-panel .hint{margin-bottom:10px}.checkbox{display:flex;align-items:flex-start;gap:9px;color:var(--muted);font-size:.84rem}.checkbox input{width:auto;margin-top:5px}.form-actions{display:flex;gap:10px;flex-wrap:wrap}.form-actions .btn{flex:1}.notice{display:none;padding:12px;border-radius:10px;font-size:.9rem}.notice.good{display:block;background:#123c31;color:#aaf5d4}.notice.bad{display:block;background:#4a2028;color:#ffd3d9}
+.faq{max-width:850px;margin:auto}.faq details{padding:18px 20px;background:#ffffff06;border:1px solid var(--line);border-radius:14px;margin:10px 0;transition:border-color .2s}.faq details[open]{border-color:#5ee7f555}.faq summary{cursor:pointer;font-weight:850}.faq p{color:var(--muted);margin-bottom:0}
+footer{border-top:1px solid var(--line);padding:35px 0;background:#060b18}.foot{display:flex;justify-content:space-between;gap:22px;flex-wrap:wrap}.muted{color:var(--muted);font-size:.83rem}.wa{position:fixed;z-index:40;right:20px;bottom:20px;border-radius:99px;background:#1fca77;color:#061b14;padding:13px 18px;font-weight:950;box-shadow:0 10px 35px #0007;animation:pulse 3s infinite}
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .75s ease,transform .75s cubic-bezier(.2,.7,.2,1)}.reveal.visible{opacity:1;transform:translateY(0)}.delay1{transition-delay:.1s}.delay2{transition-delay:.2s}.delay3{transition-delay:.3s}
+@keyframes fadeUp{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-13px)}}@keyframes deckFloat{0%,100%{transform:rotateY(-8deg) rotateX(3deg) translateY(0)}50%{transform:rotateY(-5deg) rotateX(1deg) translateY(-9px)}}@keyframes pulse{0%,100%{box-shadow:0 10px 35px #0007,0 0 0 0 #1fca7740}50%{box-shadow:0 10px 35px #0007,0 0 0 9px #1fca7700}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;scroll-behavior:auto!important;transition:none!important}.reveal{opacity:1;transform:none}}
+
+.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.sample-slide{min-height:215px;border-radius:16px;padding:22px;color:#111a35;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden;position:relative;box-shadow:0 14px 35px #0003;transition:transform .3s,filter .3s}
+.sample-slide:hover{transform:translateY(-7px) scale(1.015);filter:brightness(1.06)}
+.sample-slide:after{content:"";position:absolute;width:150px;height:150px;border-radius:50%;right:-45px;top:-48px;background:#ffffff55}
+.sample-slide>*{position:relative;z-index:1}
+.sample-slide .sample-label{font-size:.62rem;font-weight:950;letter-spacing:1.5px;opacity:.8}
+.sample-slide h3{font-size:1.45rem;line-height:1.1;margin:18px 0 9px;max-width:250px}
+.sample-slide p{font-size:.78rem;margin:0;opacity:.82}
+.sample-slide .sample-foot{display:flex;justify-content:space-between;font-size:.65rem;font-weight:900;margin-top:24px}
+.sample-one{background:linear-gradient(135deg,#fff4df,#ffb76b)}.sample-two{background:linear-gradient(135deg,#e2f4ff,#7acbff)}.sample-three{background:linear-gradient(135deg,#e4f9ed,#79d7ac)}.sample-four{background:linear-gradient(135deg,#f0e6ff,#b9a0ff)}.sample-five{background:linear-gradient(135deg,#ffe6ed,#ff9bb8)}.sample-six{background:linear-gradient(135deg,#e2e9ff,#9caeff)}
+.qr-layout{display:grid;grid-template-columns:140px 1fr;gap:16px;align-items:center;margin-top:14px}
+.qr-image{width:140px;height:140px;object-fit:contain;background:#fff;padding:8px;border-radius:12px;border:1px solid #ffffff25;display:block}
+.qr-details{font-size:.85rem;color:#e7edfa}.qr-details strong{color:var(--orange);font-size:1.05rem}
+@media(max-width:850px){.gallery-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:540px){.gallery-grid{grid-template-columns:1fr}.qr-layout{grid-template-columns:1fr}.qr-image{width:170px;height:170px}}
+
+@media(max-width:850px){nav{display:none}.menu{display:block}.nav .nav-cta{display:none}.hero-grid,.order-layout{grid-template-columns:1fr}.hero{min-height:0}.deck-wrap{max-width:560px;margin:12px auto 0}.hero-grid{gap:42px}.grid{grid-template-columns:1fr 1fr}.process{grid-template-columns:1fr 1fr}.stats-grid{grid-template-columns:1fr 1fr}.stat:nth-child(2){border-right:0}.stat:nth-child(-n+2){border-bottom:1px solid var(--line)}section.content{padding:70px 0}}
+@media(max-width:540px){.grid,.process{grid-template-columns:1fr}.hero{padding:58px 0}.hero-actions .btn{width:100%}.floating-tag.tag-a{left:-5px}.floating-tag.tag-b{right:-5px}.stats-grid{grid-template-columns:1fr 1fr}.stat{padding:18px 8px}.sidebox,.formbox{padding:19px}form{grid-template-columns:1fr}.full{grid-column:1}.total{align-items:flex-start;flex-direction:column}h1{font-size:2.9rem}.deck{transform:none}.wa{right:12px;bottom:12px}.logo-text small{letter-spacing:1px}}
+</style>
+</head>
+<body>
+<div id="progress"></div>
+<header>
+ <div class="wrap nav">
+  <a class="logo" href="#home"><span class="logo-mark">P</span><span class="logo-text">PPT <span>KANKER WALA</span><small>POWERPOINT PRESENTATION SERVICES</small></span></a>
+  <nav><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#pricing">Pricing</a><a href="#process">How it works</a><a href="#order">Order Now</a><a href="#faq">FAQs</a></nav>
+  <a class="btn primary smallbtn nav-cta" href="#order">Start a Project ↗</a>
+  <button class="menu" id="menuBtn" aria-label="Toggle menu">☰</button>
+ </div>
+</header>
+<main>
+<section class="hero" id="home">
+ <div class="orb one"></div><div class="orb two"></div>
+ <div class="wrap hero-grid">
+  <div>
+   <div class="pill"><i class="dot"></i> CREATIVE SLIDES. CLEAR IDEAS.</div>
+   <h1>Ideas deserve<br><span class="gradient">great slides.</span></h1>
+   <p class="hero-copy">PPT stands for <strong>PowerPoint Presentation</strong>. We turn your topic into a polished, engaging presentation for school, college, seminars and business.</p>
+   <div class="hero-actions"><a class="btn primary" href="#order">✦ Create My PPT</a><a class="btn outline" href="#services">Explore Services ↓</a></div>
+   <div class="micro"><span>✓ Topic-focused content</span><span>✓ Custom visual style</span><span>✓ Easy online ordering</span></div>
+  </div>
+  <div class="deck-wrap">
+   <div class="deck">
+    <div class="deck-top"><span>PPT KANKER WALA / LIVE PREVIEW</span><span class="lights"><i></i><i></i><i></i></span></div>
+    <div class="slide"><div><div class="slide-label">POWERPOINT PRESENTATION</div><h2>Make your<br>ideas stand out.</h2><p>Clear storytelling. Thoughtful design. Strong impact.</p></div><div class="slide-footer"><span>YOUR TOPIC · OUR CREATIVITY</span><span class="slide-lines"><i></i><i></i><i></i></span></div></div>
+   </div>
+   <div class="floating-tag tag-a">✦ <b>Custom</b> designs</div><div class="floating-tag tag-b">▣ <b>Presentation</b> ready</div>
+  </div>
+ </div>
+</section>
+<div class="stats"><div class="wrap stats-grid"><div class="stat"><strong>PowerPoint</strong><span>PPT full form</span></div><div class="stat"><strong>Custom-made</strong><span>Designed for your topic</span></div><div class="stat"><strong>Mobile-first</strong><span>Simple order form</span></div><div class="stat"><strong>Direct support</strong><span>WhatsApp follow-up</span></div></div></div>
+
+<section class="content" id="services"><div class="wrap">
+ <div class="section-head reveal"><span class="eyebrow">What we create</span><h2>One topic. A better presentation.</h2><p>From a classroom assignment to a business pitch, choose the style that fits your goal.</p></div>
+ <div class="grid">
+  <article class="card reveal"><div class="icon">🎓</div><h3>School & College</h3><p>Assignment slides, subject topics, project work and educational presentations with a clear structure.</p></article>
+  <article class="card reveal delay1"><div class="icon">🧬</div><h3>Science & Research</h3><p>Biology, chemistry, physics, practical topics and seminar presentations with organized explanations.</p></article>
+  <article class="card reveal delay2"><div class="icon">💼</div><h3>Business & Events</h3><p>Business proposals, reports, training decks, event plans and professional introductions.</p></article>
+  <article class="card reveal"><div class="icon">🎨</div><h3>Creative Slides</h3><p>Modern layouts, visual hierarchy, icons, diagrams and a cohesive color palette.</p></article>
+  <article class="card reveal delay1"><div class="icon">🌐</div><h3>Hindi or English</h3><p>Choose English, Hindi or a bilingual presentation according to your audience.</p></article>
+  <article class="card reveal delay2"><div class="icon">⚡</div><h3>Custom Requirements</h3><p>Share your slide count, reference, instructions and deadline for a tailored quote.</p></article>
+ </div>
+</div></section>
+
+<section class="content" id="gallery"><div class="wrap">
+ <div class="section-head reveal"><span class="eyebrow">Design gallery</span><h2>Presentation styles to inspire you.</h2><p>Six bilingual-friendly sample previews. These are illustrative demo designs; replace them with screenshots of your own finished PPTs when ready.</p></div>
+ <div class="gallery-grid">
+  <article class="sample-slide sample-one reveal"><div class="sample-label">01 · SCIENCE / विज्ञान</div><div><h3>Milky Mushroom Cultivation</h3><p>खेती की तकनीक • Cultivation Technology</p></div><div class="sample-foot"><span>ENGLISH + हिंदी</span><span>01 / 06</span></div></article>
+  <article class="sample-slide sample-two reveal delay1"><div class="sample-label">02 · ENVIRONMENT / पर्यावरण</div><div><h3>Save Nature, Save Future</h3><p>प्रकृति बचाओ • भविष्य बचाओ</p></div><div class="sample-foot"><span>BILINGUAL</span><span>02 / 06</span></div></article>
+  <article class="sample-slide sample-three reveal delay2"><div class="sample-label">03 · BIOLOGY / जीव विज्ञान</div><div><h3>Life Processes</h3><p>जीवन प्रक्रियाएँ • Biology Notes</p></div><div class="sample-foot"><span>STUDENT PROJECT</span><span>03 / 06</span></div></article>
+  <article class="sample-slide sample-four reveal"><div class="sample-label">04 · TECHNOLOGY / तकनीक</div><div><h3>Artificial Intelligence</h3><p>कृत्रिम बुद्धिमत्ता • AI Basics</p></div><div class="sample-foot"><span>MODERN DESIGN</span><span>04 / 06</span></div></article>
+  <article class="sample-slide sample-five reveal delay1"><div class="sample-label">05 · CULTURE / संस्कृति</div><div><h3>Chhattisgarh: Culture & Heritage</h3><p>छत्तीसगढ़ की संस्कृति और विरासत</p></div><div class="sample-foot"><span>HINDI + ENGLISH</span><span>05 / 06</span></div></article>
+  <article class="sample-slide sample-six reveal delay2"><div class="sample-label">06 · BUSINESS / व्यवसाय</div><div><h3>Business Plan</h3><p>व्यवसाय योजना • Project Presentation</p></div><div class="sample-foot"><span>PROFESSIONAL</span><span>06 / 06</span></div></article>
+ </div>
+</div></section>
+
+<section class="content pricing" id="pricing"><div class="wrap">
+ <div class="section-head reveal"><span class="eyebrow">Transparent starting rates</span><h2>Choose your starting package.</h2><p>Displayed rates are starting prices, not guaranteed fixed quotes. Final cost is confirmed after reviewing your requirements.</p></div>
+ <div class="grid">
+  <article class="card reveal"><div class="icon">◈</div><h3>Basic</h3><div class="price">₹149 <small>/ starting</small></div><ul class="features"><li>Simple and clean layout</li><li>Short assignment or topic</li><li>Standard formatting</li></ul><button class="btn outline choose" data-package="Basic">Choose Basic →</button></article>
+  <article class="card popular reveal delay1"><span class="popular-badge">POPULAR</span><div class="icon">✦</div><h3>Professional</h3><div class="price">₹299 <small>/ starting</small></div><ul class="features"><li>Enhanced slide design</li><li>More visual polish</li><li>Project or seminar style</li></ul><button class="btn primary choose" data-package="Professional">Choose Professional →</button></article>
+  <article class="card reveal delay2"><div class="icon">✧</div><h3>Premium</h3><div class="price">₹499 <small>/ starting</small></div><ul class="features"><li>Advanced visual treatment</li><li>Custom design direction</li><li>Complex work quoted separately</li></ul><button class="btn outline choose" data-package="Premium">Choose Premium →</button></article>
+ </div>
+</div></section>
+
+<section class="content" id="process"><div class="wrap">
+ <div class="section-head reveal"><span class="eyebrow">Simple process</span><h2>From idea to presentation.</h2><p>Four simple steps to get your request moving.</p></div>
+ <div class="process">
+  <div class="step reveal"><div class="step-num">STEP 01</div><h3>Share your topic</h3><p>Enter topic, subject, language and any special instructions.</p></div>
+  <div class="step reveal delay1"><div class="step-num">STEP 02</div><h3>Confirm the quote</h3><p>We review the requirements and confirm price and deadline.</p></div>
+  <div class="step reveal delay2"><div class="step-num">STEP 03</div><h3>Work begins</h3><p>Payment terms and any reference materials are confirmed directly.</p></div>
+  <div class="step reveal delay3"><div class="step-num">STEP 04</div><h3>Receive your PPT</h3><p>Receive the completed file using your chosen delivery method.</p></div>
+ </div>
+</div></section>
+
+<section class="content" id="order" style="background:radial-gradient(ellipse at 0 0,#17315b55,transparent 45%)">
+ <div class="wrap">
+  <div class="section-head reveal"><span class="eyebrow">Let’s get started</span><h2>Tell us about your PPT.</h2><p>Submit an order request. We’ll review the details and confirm the final quote before starting.</p></div>
+  <div class="order-layout">
+   <aside class="sidebox reveal"><div class="icon">✉</div><h3>Let’s build your next presentation.</h3><p>Give clear details so your requirements and delivery deadline are understood.</p>
+    <div class="contact-row">📧 Email<span>Kankeralert@gmail.com</span></div>
+    <div class="contact-row">💬 WhatsApp<span>+91 9238816125</span></div>
+    <div class="contact-row">💳 UPI ID<span>trivendratbx@fam</span></div>
+    <div class="contact-row">📁 Reference files<span>Send photos, documents or examples on WhatsApp after submitting.</span></div>
+   </aside>
+   <div class="formbox reveal delay1">
+    <h3>Order request</h3><p class="form-intro">Fields marked * are required.</p>
+    <form id="orderForm" action="https://formspree.io/f/maenzojd" method="POST">
+     <input type="hidden" name="_subject" value="New order — PPT KANKER WALA"><input type="hidden" name="Brand" value="PPT KANKER WALA"><input type="hidden" name="Starting Price (INR)" id="hiddenPrice" value="149">
+     <div class="field"><label for="name">Full name *</label><input id="name" name="Customer Name" required maxlength="100" autocomplete="name" placeholder="Your name"></div>
+     <div class="field"><label for="phone">Mobile number *</label><input id="phone" name="Mobile Number" type="tel" inputmode="numeric" pattern="[0-9]{10}" maxlength="10" required placeholder="10-digit mobile"><div class="hint">Enter 10 digits without +91.</div></div>
+     <div class="field"><label for="topic">PPT topic *</label><input id="topic" name="PPT Topic" required maxlength="200" placeholder="e.g. Milky Mushroom Cultivation"></div>
+     <div class="field"><label for="subject">Subject / class</label><input id="subject" name="Subject or Class" placeholder="e.g. Biology, Class 12"></div>
+     <div class="field"><label for="package">Package *</label><select id="package" name="Package" required><option value="Basic" data-price="149">Basic — ₹149 starting</option><option value="Professional" data-price="299">Professional — ₹299 starting</option><option value="Premium" data-price="499">Premium — ₹499 starting</option><option value="Custom Quote" data-price="0">Custom quote</option></select></div>
+     <div class="field"><label for="slides">Slide count *</label><select id="slides" name="Slide Count" required><option>5–8 slides</option><option selected>9–15 slides</option><option>16–25 slides</option><option>26+ slides</option></select></div>
+     <div class="field"><label for="language">Language *</label><select id="language" name="Language" required><option>English</option><option>Hindi</option><option>Hindi + English</option></select></div>
+     <div class="field"><label for="style">Design style</label><select id="style" name="Design Style"><option>Professional</option><option>Simple and clean</option><option>Creative and colorful</option><option>Academic</option><option>Business</option><option>Based on reference</option></select></div>
+     <div class="field"><label for="deadline">Required by *</label><input id="deadline" name="Deadline" type="date" required></div>
+     <div class="field"><label for="delivery">Delivery method *</label><select id="delivery" name="Delivery Method" required><option>WhatsApp</option><option>Email</option><option>WhatsApp + Email</option></select></div>
+     <div class="field full"><label for="notes">Instructions / reference details</label><textarea id="notes" name="Instructions" maxlength="3000" placeholder="Required headings, content, links, design reference or special instructions..."></textarea></div>
+     <div class="field full"><label for="payment">Payment option *</label><select id="payment" name="Payment Option" required><option value="UPI">UPI payment</option><option value="COD">Pay after completion (confirm first)</option></select></div>
+     <div class="field full" id="upiPanel"><div class="payment-panel"><label>UPI payment</label><div class="hint">UPI ID: <strong>trivendratbx@fam</strong>. Check the amount and confirm the final quote before paying.</div><div class="qr-layout"><img id="upiQr" class="qr-image" alt="Dynamic UPI QR code for selected amount" src="" loading="lazy"><div class="qr-details">Pay amount<br><strong id="qrAmount">₹149</strong><p class="hint">Scan with a UPI app. QR updates when you change the package.</p><a class="btn primary" id="upiLink" href="upi://pay?pa=trivendratbx%40fam&pn=PPT%20KANKER%20WALA&cu=INR" style="width:100%">Pay Now ↗</a></div></div><div class="hint">QR is generated from the selected package's starting price. If your final quote differs, confirm it before paying. Payment is not automatically verified by this website.</div><label for="utr" style="margin-top:12px">UTR / transaction ID (if paid)</label><input id="utr" name="UPI UTR" maxlength="80" placeholder="Enter UTR after payment"></div></div>
+     <div class="field full" id="codNote" style="display:none"><div class="payment-panel">PPT is a digital file, not a physical courier item. “Pay after completion” is a request only; payment and file-delivery terms must be confirmed on WhatsApp first.</div></div>
+     <div class="field full"><div class="total"><div><b>Estimated starting price</b><div class="hint">Final quote depends on slide count, complexity and urgency.</div></div><strong id="priceText">₹149</strong></div></div>
+     <div class="field full"><label class="checkbox"><input type="checkbox" id="consent" required><span>I confirm these details are correct and agree to be contacted about this request.</span></label></div>
+     <div class="field full form-actions"><button class="btn primary" id="submitBtn" type="submit">Submit order request ↗</button><button class="btn outline" id="waBtn" type="button">Send on WhatsApp</button></div>
+     <div class="field full"><div class="notice" id="notice" role="status" aria-live="polite"></div></div>
+    </form>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="content" id="faq"><div class="wrap">
+ <div class="section-head reveal"><span class="eyebrow">Good to know</span><h2>Frequently asked questions.</h2></div>
+ <div class="faq reveal">
+  <details><summary>What does PPT stand for?</summary><p>PPT is commonly used to mean PowerPoint presentation or a PowerPoint file. PowerPoint is presentation software; “PPT KANKER WALA” is our presentation-design service name.</p></details>
+  <details><summary>Are the displayed prices final?</summary><p>No. ₹149, ₹299 and ₹499 are starting prices. We confirm the final quote after reviewing the topic, slide count, complexity and deadline.</p></details>
+  <details><summary>Does UPI payment get verified automatically?</summary><p>No. The UPI link opens a compatible payment app. A submitted UTR is not proof of successful payment by itself; payment must be checked separately.</p></details>
+  <details><summary>Can I choose pay after completion?</summary><p>You can request this option, but the payment terms must be confirmed with us first. It is not physical courier cash-on-delivery.</p></details>
+  <details><summary>How do I send images or source files?</summary><p>After submitting the request, use WhatsApp to attach your reference files. This form does not upload files directly.</p></details>
+ </div>
+</div></section>
+</main>
+<footer><div class="wrap foot"><div><a class="logo" href="#home"><span class="logo-mark">P</span><span class="logo-text">PPT <span>KANKER WALA</span><small>POWERPOINT PRESENTATION SERVICES</small></span></a><p class="muted">Your topic. Our creativity. Professional presentations.</p></div><div class="muted">Email: Kankeralert@gmail.com<br>WhatsApp: +91 9238816125<br>UPI: trivendratbx@fam</div><div class="muted">© <span id="year"></span> PPT KANKER WALA<br>All rights reserved.</div></div></footer>
+<a class="wa" href="https://wa.me/919238816125?text=Hello%20PPT%20KANKER%20WALA%2C%20I%20want%20to%20order%20a%20PPT." target="_blank" rel="noopener">WhatsApp ↗</a>
+<script>
+const $=id=>document.getElementById(id),form=$('orderForm'),packageEl=$('package'),paymentEl=$('payment'),upiPanel=$('upiPanel'),codNote=$('codNote'),notice=$('notice');
+const upiId='trivendratbx@fam',waNumber='919238816125';
+function updatePrice(){let o=packageEl.options[packageEl.selectedIndex],p=Number(o.dataset.price||0),custom=packageEl.value==='Custom Quote';$('priceText').textContent=custom?'To be confirmed':'₹'+p;$('hiddenPrice').value=custom?'To be confirmed':p;$('qrAmount').textContent=custom?'Confirm amount':'₹'+p;let amt=custom?'':'&am='+encodeURIComponent(p.toFixed(2));let upi='upi://pay?pa='+encodeURIComponent(upiId)+'&pn='+encodeURIComponent('PPT KANKER WALA')+amt+'&cu=INR';$('upiLink').href=upi;$('upiQr').src=custom?'':('https://api.qrserver.com/v1/create-qr-code/?size=220x220&data='+encodeURIComponent(upi));$('upiQr').style.visibility=custom?'hidden':'visible'}
+function updatePayment(){let isUpi=paymentEl.value==='UPI';upiPanel.style.display=isUpi?'block':'none';codNote.style.display=isUpi?'none':'block'}
+packageEl.addEventListener('change',updatePrice);paymentEl.addEventListener('change',updatePayment);
+document.querySelectorAll('.choose').forEach(b=>b.addEventListener('click',()=>{packageEl.value=b.dataset.package;updatePrice();$('order').scrollIntoView({behavior:'smooth'})}));
+function message(){const v=id=>($(id).value||'').trim();return '*PPT KANKER WALA — Order Request*%0A'+[
+'Name: '+v('name'),'Mobile: '+v('phone'),'Topic: '+v('topic'),'Subject/Class: '+(v('subject')||'Not provided'),'Package: '+packageEl.value,'Starting price: '+$('priceText').textContent,'Slides: '+v('slides'),'Language: '+v('language'),'Design: '+v('style'),'Deadline: '+v('deadline'),'Delivery: '+v('delivery'),'Payment: '+v('payment'),'UTR: '+(v('utr')||'Not provided'),'Instructions: '+(v('notes')||'None')
+].map(encodeURIComponent).join('%0A')}
+$('waBtn').addEventListener('click',()=>{if(form.reportValidity())window.open('https://wa.me/'+waNumber+'?text='+message(),'_blank','noopener')});
+form.addEventListener('submit',async e=>{e.preventDefault();notice.className='notice';notice.style.display='none';if(!form.reportValidity())return;$('submitBtn').disabled=true;$('submitBtn').textContent='Submitting...';try{const r=await fetch(form.action,{method:'POST',body:new FormData(form),headers:{Accept:'application/json'}});if(r.ok){notice.className='notice good';notice.textContent='Request submitted to the email service. WhatsApp will open for follow-up. If the email service is not configured, use WhatsApp to ensure your order reaches us.';notice.style.display='block';window.open('https://wa.me/'+waNumber+'?text='+message(),'_blank','noopener');}else{throw new Error('Email service did not accept the request.')}}catch(err){notice.className='notice bad';notice.textContent='Could not confirm email submission. Please send your request directly through WhatsApp.';notice.style.display='block'}finally{$('submitBtn').disabled=false;$('submitBtn').textContent='Submit order request ↗'}});
+const now=new Date();$('deadline').min=new Date(now.getTime()-now.getTimezoneOffset()*60000).toISOString().slice(0,10);$('year').textContent=now.getFullYear();
+const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target)}}),{threshold:.12});document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+window.addEventListener('scroll',()=>{let max=document.documentElement.scrollHeight-innerHeight;$('progress').style.width=(max>0?scrollY/max*100:0)+'%'},{passive:true});
+$('menuBtn').addEventListener('click',()=>{let n=document.querySelector('header nav');if(!n){return}n.style.display=n.style.display==='flex'?'none':'flex';n.style.position='absolute';n.style.top='76px';n.style.left='0';n.style.right='0';n.style.padding='22px';n.style.background='#080f24';n.style.flexDirection='column';n.style.borderBottom='1px solid #ffffff18'});
+updatePrice();updatePayment();
+</script>
+</body>
+</html>
